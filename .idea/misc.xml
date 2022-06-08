@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Udemy/App/Foody/app/src/main/res/drawable/ic_food_joke.xml" value="0.279" />
         <entry key="..\:/Udemy/App/Foody/app/src/main/res/layout/activity_main.xml" value="0.2859375" />
+        <entry key="..\:/Udemy/App/Foody/app/src/main/res/layout/fragment_favourite_recipes.xml" value="0.27447916666666666" />
+        <entry key="..\:/Udemy/App/Foody/app/src/main/res/layout/fragment_food_joke.xml" value="0.27447916666666666" />
+        <entry key="..\:/Udemy/App/Foody/app/src/main/res/layout/fragment_recipe.xml" value="0.27447916666666666" />
+        <entry key="..\:/Udemy/App/Foody/app/src/main/res/layout/fragment_recipes.xml" value="0.27447916666666666" />
+        <entry key="..\:/Udemy/App/Foody/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

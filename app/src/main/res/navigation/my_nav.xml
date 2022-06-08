@@ -7,16 +7,16 @@
     <fragment
         android:id="@+id/recipesFragment"
         android:name="com.gmail.foody.RecipesFragment"
-        android:label="fragment_recipes"
+        android:label="Recipes"
         tools:layout="@layout/fragment_recipes" />
     <fragment
         android:id="@+id/favouriteRecipesFragment"
         android:name="com.gmail.foody.FavouriteRecipesFragment"
-        android:label="fragment_favourite_recipes"
+        android:label="Favorites"
         tools:layout="@layout/fragment_favourite_recipes" />
     <fragment
         android:id="@+id/foodJokeFragment"
         android:name="com.gmail.foody.FoodJokeFragment"
-        android:label="fragment_food_joke"
+        android:label="Food Joke"
         tools:layout="@layout/fragment_food_joke" />
 </navigation>
