@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.gmail.foody.databinding.FragmentRecipesBinding
 
 /**
  * A simple [Fragment] subclass.
@@ -13,11 +14,16 @@ import android.view.ViewGroup
  */
 class RecipesFragment : Fragment() {
 
+    private var _binding : FragmentRecipesBinding? = null
+    private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_recipes, container, false)
+        _binding = FragmentRecipesBinding.inflate(inflater, container, false)
+        binding.Shimmer.showShimmer(true)
+        return binding.root
     }
 }
