@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/lightGray"
     tools:ignore="HardcodedText"
-    tools:context=".RecipesFragment">
+    tools:context=".ui.fragments.recipes.RecipesFragment">
 
     <com.facebook.shimmer.ShimmerFrameLayout
         android:id="@+id/Shimmer"

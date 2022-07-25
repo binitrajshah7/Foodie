@@ -1,10 +1,11 @@
-package com.gmail.foody
+package com.gmail.foody.ui.fragments.foodjoke
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.gmail.foody.R
 
 /**
  * A simple [Fragment] subclass.

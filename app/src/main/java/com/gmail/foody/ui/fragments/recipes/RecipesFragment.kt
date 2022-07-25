@@ -1,4 +1,4 @@
-package com.gmail.foody
+package com.gmail.foody.ui.fragments.recipes
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
